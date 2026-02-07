@@ -51,7 +51,9 @@
           "project": "whisper-app",
           "organization": "codesistency-gs"
         }
-      ]
+      ],
+      "@sentry/react-native",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
