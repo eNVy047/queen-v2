@@ -48,9 +48,8 @@
         "@sentry/react-native/expo",
         {
           "url": "https://sentry.io/",
-          "project": "whisper-app",
-          "organization": "codesistency-gs",
-          "disableAutoUpload": true
+          "project": "xoraxi-my",
+          "organization": "narayan-4k"
         }
       ],
       "@sentry/react-native",
