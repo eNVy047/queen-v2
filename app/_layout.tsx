@@ -9,7 +9,7 @@ import * as Sentry from "@sentry/react-native";
 import SocketConnection from "@/components/SocketConnection";
 
 Sentry.init({
-  dsn: "https://15b1478c05acb1bc0a0e3e3ba41d6926@o4508149123514368.ingest.us.sentry.io/4510840252203008",
+  dsn: process.env.EXPO_PUBLIC_SENTRY_DSN || process.env.REACT_APP_SENTRY_DSN,
 
   // Adds more context data to events (IP address, cookies, user, etc.)
   // For more information, visit: https://docs.sentry.io/platforms/react-native/data-management/data-collected/
