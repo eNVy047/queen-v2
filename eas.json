@@ -9,8 +9,11 @@
       "android": {
         "buildType": "apk"
       },
-      "ios": {
-        "simulator": false
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cXVpY2stbWFrby0xLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_API_URL": "https://social-backend-005f.onrender.com",
+        "EXPO_PUBLIC_SHARE_URL": "https://xoraxi.com",
+        "EXPO_PUBLIC_SENTRY_DSN": "https://b0ab155cfb535d6068bf5d240c0dfab8@o4508149123514368.ingest.us.sentry.io/4510844766650368"
       }
     },
     "production": {
@@ -18,8 +21,11 @@
       "android": {
         "buildType": "app-bundle"
       },
-      "ios": {
-        "simulator": false
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_cXVpY2stbWFrby0xLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "EXPO_PUBLIC_API_URL": "https://social-backend-005f.onrender.com",
+        "EXPO_PUBLIC_SHARE_URL": "https://xoraxi.com",
+        "EXPO_PUBLIC_SENTRY_DSN": "https://b0ab155cfb535d6068bf5d240c0dfab8@o4508149123514368.ingest.us.sentry.io/4510844766650368"
       }
     }
   },
